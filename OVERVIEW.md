@@ -8,7 +8,7 @@ Check the [Github](https://github.com/damienaicheh/azure-devops-rocket-chat) rep
 
 ## Basic usage
 
-Send hook notification to Rocket Chat:
+When Rocket Chat is correctly set up (see the tutorial link in the Github repository), send hook notification like this:
 
 ```yml
 - task: RocketChatHookNotification@1
