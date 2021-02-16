@@ -4,7 +4,7 @@
 
 ## Install
 
-Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?)
+Available on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=DamienAicheh.rocket-chat-tasks)
 
 ## Features
 
