@@ -1,0 +1,59 @@
+{
+    "manifestVersion": 1,
+    "id": "rocket-chat-tasks",
+    "name": "Rocket Chat Hook Notification",
+    "version": "1.0.0",
+    "publisher": "damienaicheh",
+    "public": true,
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "description": "Send message from Azure DevOps to Rocket Chat in your pipelines",
+    "icons": {
+        "default": "icon.png"
+    },
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "tags": [
+        "mobile",
+        "web",
+        "server"
+    ],
+    "content": {
+        "details": {
+            "path": "OVERVIEW.md"
+        },
+        "license": {
+            "path": "LICENSE.md"
+        }
+    },
+    "links": {
+        "support": {
+            "uri": "https://github.com/damienaicheh/azure-devops-rocket-chat/issues"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/damienaicheh/azure-devops-rocket-chat"
+    },
+    "files": [
+        {
+            "path": "RocketChatHookTask"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "rocket-chat-hook-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "RocketChatHookTask"
+            }
+        }
+    ]
+}
