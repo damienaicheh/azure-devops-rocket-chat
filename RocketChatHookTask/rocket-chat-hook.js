@@ -36,6 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.HookConfig = void 0;
 var task = require("azure-pipelines-task-lib/task");
 var https = require('https');
 var HookConfig = /** @class */ (function () {
